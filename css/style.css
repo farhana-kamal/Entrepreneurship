@@ -1,0 +1,397 @@
+/* Global CSS */
+
+/*======================
+	  Header Section
+=======================*/
+header{
+	background: #f0f2f4;
+}
+.nav-link{
+	color: #333;
+}
+.fa-facebook-square{
+	color: #1286bf;
+}
+hr{
+	width: 5%;
+    border-bottom: 4px solid #333;
+}
+/*======================
+	  Logo Section
+=======================*/
+.btn-consultaion{
+	border: none;
+    background: #de2b24;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 7px;
+    font-size: 13px;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    transition: 0.4s;
+}
+.btn-consultaion:hover{
+	background: #e68d89;
+	cursor: pointer;
+}
+#navbarNavAltMarkup{
+	padding-left: 29%;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #de2b24;
+}
+.navbar{
+	margin: 3% 0;
+}
+.contact{
+	border-right: 1px solid #3333332b;
+}
+/*======================
+	  Banner Section
+=======================*/
+#banner{
+	background: url(../images/banner.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.btn-banner{
+	background: #f8cd53;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 8px;
+    margin: 10px 0 180px;
+}
+.btn-banner:hover{
+    cursor: pointer;
+    background: #fbe3a1;
+}
+#banner h1{
+    letter-spacing: 1px;
+    padding-top: 20%;
+    color: #fff;
+    font-weight: 400;
+}
+#banner h6{
+	font-size: 26px;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+/*======================
+	  Service Section
+=======================*/
+#service{
+	margin: 5% 0;
+}
+.service_pro h5{
+	margin-top: 10px;
+}
+/*======================
+	  Approach Section
+=======================*/
+
+#approach{
+	background: #f3f3f3;
+	padding-bottom: 5%;
+}
+#approach h2{
+	margin-top: 5%;
+}
+.wrap{
+	background: #fff;
+	box-shadow: 0px 0px 7px #cec5c5;
+	margin-top: 5%;
+}
+.wrap_content_left{;
+	max-width: 581px;
+    margin: 60px;
+
+}
+.wrap_content_right{
+	max-width: 581px;
+    margin: 60px;
+    text-align: right;
+}
+.img_content_left{
+	position: absolute;
+    top: 73px;
+    color: #fff;
+    right: -43px;
+    background: #de2b24;
+    border: 2px solid #fff;
+    padding: 8px 34px;
+    text-align: center;
+}
+.img_content_right {
+    position: absolute;
+    top: 73px;
+    color: #fff;
+    left: -43px;
+    background: #de2b24;
+    border: 2px solid #fff;
+    padding: 8px 34px;
+    text-align: center;
+}
+.img_content_left h2, .img_content_right h2{
+	padding-top: 4px;
+    font-weight: 800;
+}
+.img_content_left p, .img_content_right p{
+	margin-top: -14px;
+}
+.wrap_img_left, .wrap_img_right{
+	position: relative;
+}
+/*======================
+	 Our Work Section
+=======================*/
+#our_work{
+	background: #de2b24;
+	padding-bottom: 5%;
+	text-align: center;
+	color: #fff;
+}
+#our_work hr{
+	width: 5%;
+    border-bottom: 4px solid #fff;
+}
+#our_work h2{
+	margin-top: 5%;
+}
+/*.wrapper{
+	padding-top: 5%;
+}
+.wrapper_content{
+	background: #f35e59;
+	padding: 65px 0px;
+}
+.wrapper_img{
+	overflow: hidden;
+}
+.wrapper_img img{
+	-webkit-transition: 0.4s;
+	-moz-transition: 0.4s;
+	-o-transition: 0.4s;
+	transition: 0.4s;
+}
+.wrapper_img img:hover{
+	-webkit-transform: scale(1.2,1.2);
+	-moz-transform: scale(1.2,1.2);
+	-o-transform: scale(1.2,1.2);
+	transform: scale(1.2,1.2);
+}
+.project-img{
+	padding: 0;
+}
+.pad-15{
+    padding-left: 0;
+    padding-right: 0;
+}
+*/
+
+.work img{
+	width:  100%;
+	-webkit-transition: 0.4s;
+	-moz-transition: 0.4s;
+	-o-transition: 0.4s;
+	transition: 0.4s;
+}
+.work img:hover{
+	-webkit-transform: scale(1.2,1.2);
+	-moz-transform: scale(1.2,1.2);
+	-o-transform: scale(1.2,1.2);
+	transform: scale(1.2,1.2);
+}
+.work{
+	padding-left: 0;
+	padding-right: 0;
+	overflow: hidden;
+}
+.work-content{
+	padding-right: 0;
+	padding-left: 0;
+	background: #F35E59;
+}
+.work-content i{
+	font-size: 40px;
+    padding-top: 70px;
+    color: #F9AFAC;
+}
+.work-content h5{
+	font-size: 27px;
+}
+/*==============================
+	  Contact form Section
+===============================*/
+#contact-form{
+	background: #1287bf;
+	padding-bottom: 5%;
+}
+.contact p{
+	font-size: 11px;
+    padding: 15px 20px 0px;
+    text-align: center;
+}
+#contact-form h2{
+	color: #fff;
+	padding-top: 5%;
+}
+#contact-form h6{
+	color: #fff;
+}
+.submit_btn{
+	background: #de2b24;
+    border: #de2b24;
+    color: #fff;
+    padding: 10px 50px;
+}
+.down-angle i{
+	color: #fff;
+    font-size: 22px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 10px 15px;
+    margin-top: 10px;
+}
+.form{
+	background: #fff;
+    max-width: 600px;
+    margin: 2% auto;
+    display: block;
+    padding-bottom: 2%;
+}
+.form-group{
+	padding: 0 30px;
+	
+}
+.form-group input{
+	font-size: 13px;
+}
+#triangle-up{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 40px solid white;
+    display: block;
+    margin: 0px auto -23px;
+}
+/*==============================
+	  Social Media Section
+===============================*/
+.social_icon ul li {
+    border: 2px solid #cecece;
+    padding: 10px 15px;
+    list-style: none;
+    display: inline-block;
+    color: #fff;
+    margin-left: 15px;
+ }
+ .social_icon ul li:hover{
+ 	border: 2px solid #de2b24;
+ 	cursor: pointer;
+ }
+#social_media h4{
+	padding-top: 5%;
+	color: #fff;
+}
+#social_media{
+	background: #2a2a2a;
+}
+.fb-icon{
+	padding: 4px 7px;
+}
+#social_media p{
+	color: #515151;
+}
+.subscription input{
+	background: #515151;
+    border: none;
+    max-width: 700px;
+    margin: 0 auto;
+    display: block;
+    padding: 14px 19px;
+}
+.btn-subs{
+	background: transparent;
+    border: 2px solid #515151;
+    color: #fff;
+    padding: 10px 24px;
+    margin: 5% 0;
+}
+.btn-subs:hover{
+	background: #515151;
+}
+/*==============================
+	  Footer Section
+===============================*/
+footer{
+	background: #515151;
+}
+footer p{
+	color: #b2b2b2;
+	text-align: center;
+    padding: 2% 0;
+    margin: -16px 0 0px;
+}
+/*=======================
+	  Media Query
+========================*/
+/*@media (min-width: 0px) and (max-width: 500px){
+	.left, .right{
+		display: none;
+	}
+	.content_left{
+	    max-width: 250px;
+	    text-align: justify !important;
+}
+ 	.content_right{
+	 	max-width: 231px;
+	    text-align: jifyust !important;
+ 	}
+ 	.content_left p {
+   		padding: 0 0 0 16px;
+}
+	.content_right p {
+    	padding: 0;
+	}
+}*/
+/*
+@media (min-width: 577px) and (max-width: 767px){
+	.img_content_left, .img_content_right{
+		display: none;
+	}
+	.wrap_content_left{
+		margin: 0px;
+	}
+	.wrap_img_left{
+		text-align: center;
+	}
+	.wrap_content_left h6{
+		margin: 0 auto;
+    	display: table;
+	}
+	.wrap_content_left p{
+		text-align: justify;
+	}
+}
+@media (min-width: 768px) and (max-width: 900px){
+	.wrap_content_left{
+	    margin: 13px;
+	}
+}*/
+@media (min-width: 0px) and (max-width: 575px){
+	.img_content_left, .img_content_right{
+		display: none; 
+	}
+	.wrap_img_left, .wrap_img_right{
+		text-align: center;	
+	}
+	.wrap_content_left, .wrap_content_right{
+		margin: 0 20px;
+	}
+	#our_work{
+		display: none;
+	}
+}
